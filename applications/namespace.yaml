@@ -4,7 +4,7 @@ metadata:
   name: namespaces
   namespace: argocd # Namespace where the Argo CD Application resource lives
 spec:
-  project: demo # The Argo CD Project this application belongs to
+  project: default # The Argo CD Project this application belongs to
   source:
     repoURL: https://github.com/Ajayvallala/argo-cd.git # URL of the Git repository
     targetRevision: main # The specific branch, tag, or commit to sync from
